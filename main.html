@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>동전 던지기 게임</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <img class="banner" src="banner.png" alt="게임 배너">
+    <div class="container">
+        <h1>동전 던지기 게임</h1>
+        <button id="flip-coin">동전 던지기</button>
+        <div class="coin-container">
+            <img class="coin" id="heads" src="heads.png" alt="앞면">
+            <img class="coin" id="tails" src="tails.png" alt="뒷면">
+            <img class="countdown" id="countdown3" src="3.png" style="display: none;">
+            <img class="countdown" id="countdown2" src="2.png" style="display: none;">
+            <img class="countdown" id="countdown1" src="1.png" style="display: none;">
+        </div>
+        <div class="result-text" id="result-text"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

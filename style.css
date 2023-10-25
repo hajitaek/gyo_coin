@@ -1,0 +1,70 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #007BFF;
+    
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.coin {
+    display: none;
+    max-width: 100%;
+}
+
+.countdown {
+    display: none;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+.result-text {
+    font-size: 24px;
+    margin-top: 10px;
+    animation: fade-in 1s ease-in-out;
+}
+
+.countdown img {
+    max-width: 250%;
+    animation: enlargeText 0.5s ease-in-out 0.5 alternate;
+}
+
+.banner {
+    max-width: 30%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
